@@ -11,8 +11,10 @@ ng-mini
 
  信息采集，例如你想采集带宽信息，内存，磁盘，CC，只要你能写出这样的程序或者命令，放到yaml文件的CmdLine后面，那么信息的采集就交给ng-mini 吧，而且你不用再使用crontab 了（当然也可以结合者来）
 画图，自定义颜色，画图方式，是否要合并
-信息汇报，类似saltstack的retuner,发送给服务端（数据库，NoSQL）,供你进行进一步的处理（告警，数据分析等）（PS:待完善）
-自带web展示，基于微型web框架（你要弄个django怎么对得器mini这个字呢，哈哈）bottle.py,就一个文件。前端基于yahoo的pure 框架就一个CSS文件，一切都是要对得起mini这个字啊
+
+ 信息汇报，类似saltstack的retuner,发送给服务端（数据库，NoSQL）,供你进行进一步的处理（告警，数据分析等）（PS:待完善）
+ 
+ 自带web展示，基于微型web框架（你要弄个django怎么对得器mini这个字呢，哈哈）bottle.py,就一个文件。前端基于yahoo的pure 框架就一个CSS文件，一切都是要对得起mini这个字啊
 
 ###二、程序依赖
 
