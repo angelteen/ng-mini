@@ -22,42 +22,44 @@ ng-mini
 ###二、程序依赖
 
 
-####1、python版本
+#### 1. python版本
 
- 因为这里面的bottle.py 是依赖python2.5或者以上，所以我们原则上也是这样
+> 因为这里面的bottle.py 是依赖python2.5或者以上，所以我们原则上也是这样
 
-####2、python额外的库文件
+#### 2. python额外的库文件
 
- PyYAML
-####3、rrdtool （命令行下）
+> PyYAML
 
-其它的暂时不依赖了
+#### 3. rrdtool （命令行下）
+
+ 其它的暂时不依赖了
 
 ###三、程序安装
 
- centos 5.x 6.x
+#### 1. centos 5.x 6.x
 
- wget -O – http://www.chenqing.org/soft/install-centos.sh |bash
+> wget -O – http://www.chenqing.org/soft/install-centos.sh |bash
 
- ubuntu 13.4 (我这测试了这个版本)
+#### 2. ubuntu 13.4 (我这测试了这个版本)
 
- sudo wget -O – http://www.chenqing.org/soft/install-ubuntu.sh |bash
+> sudo wget -O – http://www.chenqing.org/soft/install-ubuntu.sh |bash
 
- 下一步打算提交到epel源以及ubuntu的仓库中
+#### 3. 下一步打算提交到epel源以及ubuntu的仓库中
 
 ###四、程序启动
 
- service ng-client start
+> service ng-client start
 
 ###五、查看web界面
 
- http://yourip:65533
+> http://yourip:65533
 
- github:https://github.com/chenqing/ng-mini
+###六、 github
+> https://github.com/chenqing/ng-mini
 
-###六、demo地址：
+###七、demo地址
 
- http://www.chenqing.org:65533/mini
+> http://www.chenqing.org:65533/mini
 
 
 
